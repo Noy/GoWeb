@@ -25,6 +25,10 @@ func Nest(delegate interface{}, request *http.Request) (string, error) {
 }
 
 func AllowPages() {
+	/* 
+	wanted to clear this up, this is to do something like: http://yourserver.com:90/site IN FOLDER './html'
+	it'll read the file from the specific directory you choose..
+	*/
 	http.Handle("/site/", http.StripPrefix("/site/", http.FileServer(http.Dir("./html"))))
 }
 
