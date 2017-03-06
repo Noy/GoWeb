@@ -4,8 +4,6 @@
 
 ## With Ubuntu:
 
-### Make sure you have apache2, if not run: `apt-get install apache2` configure the basic stuff..
-
 ```
 apt-get golang
 ```
