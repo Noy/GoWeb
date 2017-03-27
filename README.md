@@ -5,7 +5,7 @@
 ## With Ubuntu:
 
 ```
-apt-get golang
+apt-get install golang
 ```
 ```
 git clone https://github.com/Noy/Web
